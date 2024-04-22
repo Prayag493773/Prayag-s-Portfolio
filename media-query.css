@@ -1,0 +1,131 @@
+@media (max-width: 600px) {
+  nav {
+    height: 8vh;
+    padding: 0 6vw;
+    overflow: initial;
+  }
+  nav h1 {
+    font-size: 3.5vh;
+  }
+
+  .links {
+    display: none;
+  }
+  .links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(52, 52, 50, 0.82);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+
+    left: -100%;
+
+    z-index: 99;
+    top: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: 0.2s ease-in-out;
+  }
+  .active {
+    left: 0;
+  }
+  #nav-toggle {
+    display: block;
+    font-size: 7vw;
+    font-weight: 700;
+  }
+
+  .page1 {
+    flex-direction: column;
+    padding-top: 8vh;
+
+    gap: 2rem;
+  }
+  .page1 > img {
+    width: 200px;
+    height: 200px;
+  }
+  .basicInfo h1 {
+    font-size: 2rem;
+  }
+  .basicBtn {
+    flex-direction: column;
+  }
+  .basicBtn #btn1 {
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+  .basicBtn #btn2 {
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+  .basicIco img {
+    width: 3.5vh;
+  }
+  .page2 {
+    padding-top: 9vh;
+  }
+  .page2 section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  section img {
+    width: 50vw;
+  }
+  .aboutHead h1 {
+    font-size: 5vh;
+  }
+  .aboutHead p {
+    font-size: 2vh;
+  }
+  .aboutMe {
+    padding: 10px;
+    gap: 1rem;
+  }
+  .cards {
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .card {
+    width: 100%;
+    min-height: 25vh;
+    padding: 20px;
+  }
+  .aboutMe p {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .page3 {
+    padding-top: 8vh;
+    min-height: 150%;
+  }
+  .skill-box {
+    min-height: 100vh;
+  }
+  .div-skill-box {
+    width: 100%;
+    height: 50vh;
+  }
+  .page4 {
+    flex-direction: column;
+    padding-top: 9vh;
+    min-height: 250%;
+  }
+
+  .pro-cards {
+    flex-wrap: wrap;
+  }
+  .pro-card {
+    width: 100%;
+    min-height: 70vh;
+  }
+  .page5 {
+    padding-top: 9vh;
+    height: 100%;
+  }
+}

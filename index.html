@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Port | Prayag</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="media-query.css" />
+    <link rel="shortcut icon" href="./img/imgg.jfif" type="image/x-jfif" />
+  </head>
+  <body>
+    <div class="bg">
+      <img src="./img/nasa_bg.jpg" alt="" />
+    </div>
+    <div class="up-down">
+      <div class="up">
+        <a href="#page1"><img src="./img/up.png" alt="" /></a>
+      </div>
+      <div class="down">
+        <a href="#page5"><img src="./img/down.png" alt="" /></a>
+      </div>
+    </div>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <a href="#page1"> <h1>PRAYAG DIWAKIRTI</h1></a>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <ul class="links" id="links">
+          <li><a href="#page1">Home</a></li>
+          <li><a href="#page2">About</a></li>
+          <li><a href="#page3">Skills</a></li>
+          <li><a href="#page4">Projects</a></li>
+          <li><a href="#page5">Contact</a></li>
+        </ul>
+        <a
+          ><i class="ri-menu-line" id="nav-toggle" onclick="togglefunc()"></i
+        ></a>
+      </div>
+    </nav>
+    <!-- main-section -->
+    <main>
+      <div class="page1" id="page1">
+        <img src="./img/imgg.jfif" alt="" />
+        <div class="basicInfo">
+          <p>Namaste, I'm</p>
+          <h1>Prayag Diwakirti</h1>
+          <h2>Web-Developer</h2>
+          <div class="basicBtn">
+            <a href="./img/Prayag Diwakirti Resume.pdf"
+              ><button id="btn1">Download Resume</button></a
+            >
+            <a href="#page5"><button id="btn2">Contact info</button></a>
+          </div>
+          <div class="basicIco">
+            <a href="https://www.linkedin.com/in/prayag-diwakirti-57564426a/"
+              ><img src="./img/linkedin.png" alt="linkedin"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="page2" id="page2">
+        <div class="aboutHead">
+          <p>Get To Know More</p>
+          <h1>About Me</h1>
+        </div>
+        <section>
+          <img src="./img/img3.jfif" alt="Image" />
+          <div class="aboutMe">
+            <div class="cards">
+              <div class="card">
+                <img src="./img/exp.png" alt="" class="card-img" />
+                <h2>Experience</h2>
+                <h5>Fresher</h5>
+                <h5>Looking for opportunities</h5>
+              </div>
+              <div class="card">
+                <img src="./img/edu.png" alt="" class="card-img" />
+                <h2>Education</h2>
+                <h5>Bacherlor's Degree</h5>
+                <h5>B.Tech Computer Science and Engineering</h5>
+              </div>
+            </div>
+            <p>
+              Motivated B.Tech. student in Computer Science and Engineering with
+              a passion for web development and a genuine curiosity for diverse
+              fields. A dedicated team player who thrives in collaborative
+              environments. A quick learner who embraces new challenges and
+              eagerly seeks opportunities to expand knowledge.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="page3" id="page3">
+        <div class="aboutHead">
+          <p>Explore My</p>
+          <h1>Skills</h1>
+        </div>
+        <div class="skill-box cards aboutMe">
+          <div class="div-skill-box card">
+            <h2 class="skill-heading">Frontend</h2>
+            <div>
+              <div class="skill">
+                <img src="./img/html.png" alt="html" />
+                <h5>HTML</h5>
+              </div>
+              <div class="skill">
+                <img src="./img/css.png" alt="html" />
+                <div>
+                  <h5>CSS</h5>
+                  <p>(Intermediate)</p>
+                </div>
+              </div>
+              <div class="skill">
+                <img src="./img/js.png" alt="html" />
+                <div>
+                  <h5>JavaScript</h5>
+                  <p>(Intermediate)</p>
+                </div>
+              </div>
+              <div class="skill">
+                <img src="./img/react.png" alt="html" />
+                <div>
+                  <h5>React.js</h5>
+                  <p>(Basic)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-skill-box card">
+            <h2 class="skill-heading">Backend(Learning)</h2>
+            <div>
+              <div class="skill">
+                <img src="./img/node.png" alt="html" />
+                <div>
+                  <h5>Node.js</h5>
+                  <p>(Basic/Learning)</p>
+                </div>
+              </div>
+              <div class="skill">
+                <img src="./img/python.png" alt="html" />
+                <div>
+                  <h5>Flask(Python)</h5>
+                  <p>(Basic)</p>
+                </div>
+              </div>
+              <div class="skill">
+                <img src="./img/mongodb.png" alt="html" />
+                <div>
+                  <h5>Mongodb</h5>
+                  <p>(Basic/Learning)</p>
+                </div>
+              </div>
+              <div class="skill">
+                <img src="./img/sql.png" alt="html" />
+                <div>
+                  <h5>MySql</h5>
+                  <p>(Basic)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page4" id="page4">
+        <div class="aboutHead">
+          <p>Browser My Recent</p>
+          <h1>Projects</h1>
+        </div>
+        <div class="pro-cards">
+          <div class="pro-card">
+            <div class="carousel">
+              <div class="slides">
+                <img src="./img/pyPro1.jpg" alt="Image 1" />
+
+                <img src="./img/pyPro2.jpg" alt="Image 2" />
+                <img src="./img/pyPro3.jpg" alt="Image 3" />
+              </div>
+              <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+              <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <h2>
+              Machine Learning: Book Recommendation System (Basic E-commerce )—
+            </h2>
+            <h4>(Python , HTML, CSS, Flask Framework)</h4>
+            <ul>
+              <li>
+                Created personalized book recommendation system with Python,
+                HTML, CSS, and Flask.
+              </li>
+              <li>
+                Implemented ML algorithms for user preference analysis and book
+                suggestions.
+              </li>
+              <li>
+                Integrated secure user authentication for personalized
+                recommendations.
+              </li>
+            </ul>
+          </div>
+          <div class="pro-card">
+            <img src="./img/codePen.jpg" />
+            <h2>CodePen Clone —</h2>
+            <h4>(React.js)</h4>
+            <ul>
+              <li>
+                Developed a responsive web application using React.js and
+                Material-UI, ensuring seamless user interaction across devices.
+              </li>
+              <li>
+                Implemented custom components and layouts with Material-UI to
+                enhance the visual appeal and usability of the application.
+              </li>
+            </ul>
+          </div>
+          <div class="pro-card">
+            <img src="./img/MyNote.jpg" alt="MyNote" />
+            <h2>MyNotes Keeping (Google keeps clone)</h2>
+            <h4>(Html , CSS, Javascript)</h4>
+            <p>
+              Visit:
+              <a
+                class="web-link"
+                href="https://prayag493773.github.io/My-Note-Google-Keep-Clone/"
+                >Click Here !</a
+              >
+            </p>
+            <ul>
+              <li>
+                Create Notes: Easily create new notes with a title and content.
+              </li>
+              <li>
+                Edit Notes: Edit existing notes to update information or make
+                changes.
+              </li>
+              <li>Delete Notes: Remove notes that are no longer needed.</li>
+              <li>
+                Responsive Design: Enjoy a seamless experience across devices,
+                whether on desktop or mobile.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="page5" id="page5">
+        <div class="aboutHead">
+          <p>Get in Touch</p>
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contact card">
+          <div class="contact-detail">
+            <img src="./img/email.png" alt="email" /><a
+              href="mailto: prayagdiwakirti@gmail.com"
+              ><h5>prayagdiwakirti@gmail.com</h5></a
+            >
+          </div>
+          <div class="contact-detail">
+            <img src="./img/linkedin.png" alt="linkedin" />
+            <a href="https://www.linkedin.com/in/prayag-diwakirti-57564426a/"
+              ><h5>linkedin</h5></a
+            >
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="nav-links" id="nav-links">
+          <ul class="links" id="links">
+            <li><a href="#page1">Home</a></li>
+            <li><a href="#page2">About</a></li>
+            <li><a href="#page3">Skills</a></li>
+            <li><a href="#page4">Projects</a></li>
+            <li><a href="#page5">Contact</a></li>
+          </ul>
+        </div>
+        <p>&copy;Copyright Prayag's Portfolio || All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
